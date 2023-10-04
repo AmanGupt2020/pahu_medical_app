@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pashu_medical_app">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pashu_medical_app"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDH7uGZHRfQuXrh74eJR3fQkpOehYXZW7k" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dogD_4"
+            android:exported="false" />
+        <activity
+            android:name=".dogD_3"
+            android:exported="false" />
+        <activity
+            android:name=".dogD_2"
+            android:exported="false" />
+        <activity
+            android:name=".dogD_1"
+            android:exported="false" />
+        <activity
+            android:name=".goatD_4"
+            android:exported="false" />
+        <activity
+            android:name=".goatD_3"
+            android:exported="false" />
+        <activity
+            android:name=".goatD_2"
+            android:exported="false" />
+        <activity
+            android:name=".goatD_1"
+            android:exported="false" />
+        <activity
+            android:name=".cowD_4"
+            android:exported="false" />
+        <activity
+            android:name=".cowD_3"
+            android:exported="false" />
+        <activity
+            android:name=".cowD_2"
+            android:exported="false" />
+        <activity
+            android:name=".cowD_1"
+            android:exported="false" />
+        <activity
+            android:name=".dogD"
+            android:exported="false" />
+        <activity
+            android:name=".goatD"
+            android:exported="false" />
+        <activity
+            android:name=".cowD"
+            android:exported="false" />
+        <activity
+            android:name=".second"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
